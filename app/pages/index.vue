@@ -59,6 +59,27 @@
             </div>
         </div>
     </div>
+    <div class="flex flex-col gap-12 items-center">
+        <div class="flex justify-between w-full">
+            <div class="flex flex-col gap-4">
+                <h2 class="text-3xl lg:text-4xl font-bold">Избранная коллекция</h2>
+                <p class="text-zinc-400 max-w-2xl mx-auto">
+                    Отобранные вручную шедевры от лучших художников
+                </p>
+            </div>
+            <NuxtLink to="/" class="flex items-center gap-2 text-purple-400 hover:opacity-80 active:opacity-50 transition-colors group max-sm:hidden">
+                <span>Смотреть все</span>
+                <Icon name="material-symbols:arrow-right-alt-rounded" class="text-xl group-hover:translate-x-1 transition-transform"/>
+            </NuxtLink>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+        </div>
+        <NuxtLink to="/" class="flex items-center gap-2 text-purple-400 hover:opacity-80 active:opacity-50 transition-colors group sm:hidden">
+            <span>Смотреть все</span>
+            <Icon name="material-symbols:arrow-right-alt-rounded" class="text-xl group-hover:translate-x-1 transition-transform"/>
+        </NuxtLink>
+    </div>
 </template>
 
 <script setup>
