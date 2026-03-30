@@ -72,8 +72,8 @@
                 <Icon name="material-symbols:arrow-right-alt-rounded" class="text-xl group-hover:translate-x-1 transition-transform"/>
             </NuxtLink>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+            <ArtworkCard v-for="artwork in artworks" v-bind="artwork"></ArtworkCard>
         </div>
         <NuxtLink to="/" class="flex items-center gap-2 text-purple-400 hover:opacity-80 active:opacity-50 transition-colors group sm:hidden">
             <span>Смотреть все</span>
@@ -83,5 +83,45 @@
 </template>
 
 <script setup>
-
+const artworks = [
+{
+    id: '1',
+    title: 'Космический Дракон',
+    artist: 'PixelMaster',
+    price: 0.2,
+    rarity: 'legendary',
+    emoji: '🐉',
+    gradient: 'from-purple-600 via-pink-600 to-red-600',
+    description: 'Могущественный дракон, охраняющий врата космоса. Легендарная редкость.',
+    edition: '1/1',
+    views: 25847,
+    likes: 4821,
+  },
+  {
+    id: '2',
+    title: 'Алмазная Корона',
+    artist: 'CryptoKing',
+    price: 0.18,
+    rarity: 'legendary',
+    emoji: '👑',
+    gradient: 'from-yellow-500 via-amber-500 to-orange-600',
+    description: 'Королевская корона из чистых алмазов. Символ власти и богатства.',
+    edition: '1/1',
+    views: 22134,
+    likes: 4102,
+  },
+  {
+    id: '3',
+    title: 'Огненный Феникс',
+    artist: 'BurnArt',
+    price: 0.19,
+    rarity: 'legendary',
+    emoji: '🔥',
+    gradient: 'from-red-600 via-orange-500 to-yellow-500',
+    description: 'Вечное возрождение из пепла. Редчайший экземпляр.',
+    edition: '1/1',
+    views: 21543,
+    likes: 3987,
+  },
+]
 </script>
