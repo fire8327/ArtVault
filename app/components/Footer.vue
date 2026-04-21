@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-full py-10 border-t border-zinc-800/50 grid-container">
+    <footer class="w-full py-10 border-t border-zinc-800/50 grid-container mt-auto">
         <div class="w-full flex flex-col gap-6">
             <div class="flex justify-between max-lg:flex-col gap-8">
                 <div class="flex flex-col gap-4">
@@ -15,7 +15,7 @@
                     <h3 class="font-semibold text-lg">Навигация</h3>
                     <div class="flex flex-col gap-2 text-sm text-zinc-400">
                         <NuxtLink to="/" class="transition-all duration-500 hover:text-white">Галерея</NuxtLink>
-                        <NuxtLink to="/" class="transition-all duration-500 hover:text-white">О проекте</NuxtLink>
+                        <NuxtLink to="/about" class="transition-all duration-500 hover:text-white">О проекте</NuxtLink>
                         <NuxtLink to="/" class="transition-all duration-500 hover:text-white">Избранное</NuxtLink>
                     </div>
                 </div>

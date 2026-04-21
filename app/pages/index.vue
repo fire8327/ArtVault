@@ -6,13 +6,13 @@
                 <p class="text-sm text-zinc-300">Откройте редкое цифровое искусство</p>
             </div>
 
-            <h1 class="text-5xl lg:text-7xl font-bold leading-tight">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight">
                 Коллекционируйте <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400">уникальные</span>
                 <br />
                 цифровые шедевры
             </h1>
 
-            <p class="text-lg xl:text-xl text-zinc-400 max-w-2xl mx-auto">
+            <p class="text-lg text-zinc-400 max-w-2xl mx-auto">
               Исследуйте курируемую коллекцию цифровых призведений с проверенной редкостью. 
               Каждая работа рассказывает историю, каждый тираж ограничен.
             </p>
